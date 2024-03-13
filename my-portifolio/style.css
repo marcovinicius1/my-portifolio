@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary-color: #1d4ed8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #09090b;
+  padding: 2rem 8rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #18181b;
+  padding: .75rem 2rem;
+  border-radius: .25rem;
+}
+
+header span {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 1.25rem;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+
+header nav ul li a {
+  color: #fafafa;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero .text h1 {
+  color: #fafafa;
+}
+
+.hero .text h1 span {
+  color: var(--primary-color);
+}
+
+.hero .text p {
+  width: 80%;
+  color: #fafafa;
+}
+
+.hero .text button {
+  padding: .75rem;
+  width: fit-content;
+  border-radius: .25rem;
+  background-color: var(--primary-color);
+  color: #fafafa;
+  font-weight: 600;
+  border: 1px solid #fafafa9f;
+  cursor: pointer;
+}
+
+.hero img {
+  width: 46rem;
+}
+
+.hero .text .stacks {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.hero .text .stacks h4 {
+    color: #fafafa;
+} 
+
+
+.hero .text .stacks ul {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.hero .text .stacks ul li {
+  list-style: none;
+}
+
+.hero .text .stacks ul li img {
+    width: 2rem;
+}
+
+footer  {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  margin-top: 6rem;
+}
+
+footer h4 {
+    color: #fafafa57;
+    font-weight: 600;
+}
+
+footer .contact {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+
+footer .contact img {
+  width: 1rem;
+}
+
+footer .contact p {
+    color: #fafafa57;
+}
